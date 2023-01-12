@@ -788,7 +788,7 @@ namespace v2rayN
         {
             if (enableSecurityProtocolTls13)
             {
-                ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13;
+                ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls12; // | SecurityProtocolType.Tls13;
             }
             else
             {
